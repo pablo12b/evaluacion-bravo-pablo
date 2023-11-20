@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "default": "evaluacion-bravo-pablo",
+    "pablo": "evaluacion-bravo-pablo"
+  },
+  "targets": {
+    "practica-86363": {
+      "hosting": {
+        "Practica": [
+          "practica-86363"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
