@@ -1,0 +1,16 @@
+<html lang="es">
+<head>
+    <title>Leer - Tareas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <button (click)="borrarTodasLasTareas()">Borrar Tareas</button>
+    <p class="recipe-title">Tareas</p>
+    <h2>Tareas</h2>
+  <li *ngFor="let tarea of listaTareas | async">
+    <h3 routerLink="/paginas/crear/{{tarea.nota}}">{{tarea.nota}}</h3>
+    <p>Ingredientes: {{ tarea.fecha }}</p>
+    <p>Pasos: {{ tarea.etiqueta }}</p>
+  </li>
+</body>
